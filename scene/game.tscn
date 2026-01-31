@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bxnrlrk8rmcpj"]
+
+[ext_resource type="Texture2D" uid="uid://doghmovcgeltw" path="res://graphics/map.png" id="1_5kiuu"]
+[ext_resource type="PackedScene" uid="uid://wi4capk88643" path="res://scene/player.tscn" id="2_dbls1"]
+
+[node name="Game" type="Node2D" unique_id=194172482]
+metadata/_edit_vertical_guides_ = [-196.0]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2084494974]
+texture = ExtResource("1_5kiuu")
+
+[node name="Player" parent="." unique_id=230162980 instance=ExtResource("2_dbls1")]
+position = Vector2(34, 13)
